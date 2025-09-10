@@ -5,6 +5,7 @@ import { ref, onMounted } from "vue";
 import QuestionNo from "../../../components/icons/QuestionNo.vue";
 import QuestionYes from "../../../components/icons/QuestionYes.vue";
 import QuestionPartially from "../../../components/icons/QuestionPartially.vue";
+import Button from "../../../components/ui/Button.vue";
 
 defineProps({
   question: {
@@ -97,11 +98,7 @@ const hoverOut = () => tl?.reverse();
             {{ question.text }}
           </p>
 
-          <button
-            class="block w-full bg-blue-600 text-white text-lg font-semibold py-3 rounded-xl hover:bg-blue-700 transition"
-          >
-            START FOR FREE
-          </button>
+          <Button class="border-none bg-ui-03 w-full" label="START FOR FREE" />
         </div>
       </div>
     </div>
