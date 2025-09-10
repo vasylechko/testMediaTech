@@ -1,5 +1,9 @@
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
+import logoLight from "../../../public/images/logo-dark.png";
+import logoDark from "../../../public/images/logo.png";
+import poweredBy from "../../../public/images/powered_by.png";
+import poweredByDark from "../../../public/images/powered_by_dark.png";
 
 import Button from "../../components/ui/Button.vue";
 
@@ -49,7 +53,7 @@ function handleScroll() {
     <div class="w-full max-w-[90rem] flex items-center justify-between">
       <div class="flex items-center gap-x-4 flex-shrink-0">
         <img
-          :src="`/images/${headerColor === 'dark' ? `logo.png` : `logo-dark.png`}`"
+          :src="headerColor === 'dark' ? logoDark : logoLight"
           alt="logo"
           class="h-10 min-h-[40px]"
         />
@@ -58,7 +62,7 @@ function handleScroll() {
 
         <img
           class="lg:block hidden"
-          :src="`/images/${headerColor === 'dark' ? `powered_by.png` : `powered_by_dark.png`}`"
+          :src="headerColor === 'dark' ? poweredBy : poweredByDark"
           alt="powered by"
         />
       </div>
