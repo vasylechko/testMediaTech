@@ -1,0 +1,44 @@
+{
+  "name": "media-tech",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.34.0",
+    "@tailwindcss/vite": "^4.1.12",
+    "@vueuse/core": "^13.9.0",
+    "autoprefixer": "^10.4.21",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "gsap": "^3.13.0",
+    "pinia": "^3.0.3",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.12",
+    "vite": "^7.1.4",
+    "vite-svg-loader": "^5.1.0",
+    "vue": "^3.5.18",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/eslint-config-prettier": "^10.2.0",
+    "eslint": "^9.31.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.5.4",
+    "eslint-plugin-tailwindcss": "^3.18.2",
+    "eslint-plugin-vue": "~10.3.0",
+    "postcss": "^8.5.6",
+    "postcss-nested": "^7.0.2",
+    "prettier": "3.6.2",
+    "prettier-eslint": "^16.4.2",
+    "tailwindcss": "^4.1.12",
+    "vite": "^7.1.4",
+    "vue-eslint-parser": "^10.2.0"
+  },
+  "main": "index.js",
+  "license": "MIT"
+}

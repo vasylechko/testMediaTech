@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+    --color-white: #fff;
+    --color-dark: #000000;
+    --color-ui-01: #4E4E4E;
+    --color-ui-02: #414141;
+    --color-ui-03: #2E59E7;
+    --color-ui-04: #FFE2F9;
+    --color-ui-05: #D9D9D9;
+    --color-ui-06: #181818;
+    --color-ui-07: #FFE1FB;
+    --font-display: "Arial", sans-serif;
+}
+
+@layer utilities {
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    .no-scrollbar {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Arial';
+    src: url('./fonts/Arial/Arial-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy/Gilroy-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy/Gilroy-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy/Gilroy-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy/Gilroy-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    color: white;
+}
