@@ -58,9 +58,9 @@ function onMouseLeave() {
     data-header-color="dark"
     class="relative flex justify-center pt-[128px] pb-[145px] bg-dark overflow-hidden bg-[url('/images/hero_section_decor.svg')] bg-no-repeat bg-bottom bg-cover"
   >
-    <div class="w-full max-w-[90rem] relative z-20 lg:px-[74px] px-10">
+    <div class="w-full max-w-[90rem] relative z-20 lg:px-[74px] md:px-10 px-4">
       <div
-        class="font-semibold md:text-start text-center lg:text-[140px] md:text-[80px] text-[65px]"
+        class="font-semibold md:text-start text-center lg:text-[140px] md:text-[80px] text-[65px] md:leading-[150px] leading-[67px]"
       >
         AI YouTube
       </div>
