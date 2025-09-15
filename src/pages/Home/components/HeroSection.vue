@@ -97,10 +97,11 @@ function onMouseLeave() {
           :style="'blue'"
           label="TRY FOR FREE"
         />
+
         <Button class="w-full md:hidden flex px-[42px] py-6 text-sm" label="what is this ?">
           <template #before>
             <div class="mr-2.5">
-              <Play />
+              <Play class="text-white" />
             </div>
           </template>
         </Button>

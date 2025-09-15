@@ -20,6 +20,7 @@ const measuredGap = ref(defaultGapPx);
 let measuredCardWidth = cardWidthPx;
 
 const rawProgress = ref(0);
+
 const progress = computed(() =>
   Math.min(100, (rawProgress.value / (props.slides.length - 1)) * 100),
 );

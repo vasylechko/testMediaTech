@@ -35,12 +35,14 @@ import Button from "../../../components/ui/Button.vue";
         >
           Still Not Sure What Results Can You Expect?
         </div>
+
         <div
           class="text-[clamp(14px,calc(54px+56*(100vw-768px)/768),22px)] leading-[1.07] text-white/80 xl:max-w-[600px] md:max-w-[400px] max-w-[280px] w-full md:mb-0 mb-[36px]"
         >
           Find out how many views AI Metadata Translation can bring to your channel, and how much
           time it saves!
         </div>
+
         <Button class="w-full max-w-[280px] md:hidden flex" label="Read more" :style="'blue'" />
       </div>
     </div>

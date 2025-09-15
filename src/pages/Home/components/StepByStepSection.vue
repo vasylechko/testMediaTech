@@ -1,6 +1,6 @@
 <script setup>
-import MobileSlider from "./MobileSlider.vue";
 import StepByStep from "./StepByStep.vue";
+import MobileSlider from "./MobileSlider.vue";
 
 const steps = [
   {
